@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="274F3786-B9A5-CAE7-BF5C-393083E5C1E2" name="T_SPV_NOTA_FISCAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:26:21 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="6797148B-E4CC-1E98-C857-E218F0CF0A9E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:26:37 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="2CF08602-E6E5-38B5-3295-45DE3655D549">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:26:49 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="F55410B0-4AE3-7DD6-2227-F36666545B23">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:26:59 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_nota_fiscal" id="EA4531B9-6EC5-3133-122B-A12CC3266FB2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:27:22 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="6B448B83-A5E4-1432-20A5-A3ED19D430D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:31:45 UTC</createdTime>
+<generatorID>52D52ECC-C5E6-0839-0E67-D26A3CC3F2FA</generatorID>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B696955D-4F74-EBBF-6911-4CEDF20CC0E3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cfop" id="C1B60073-4DFA-E9D7-3842-1FA42EAD6EF5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:42:13 UTC</createdTime>
+<generatorID>CE03354D-689B-66C4-E59B-B8B97B102090</generatorID>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<referedAttribute>2059B1FE-4CA0-1F35-A8CB-784E16760202</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05B89CD9-1BC5-DE25-C39D-8E2A5E663CCD" name="T_SPV_NOTA_FISCAL PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:27:41 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6797148B-E4CC-1E98-C857-E218F0CF0A9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

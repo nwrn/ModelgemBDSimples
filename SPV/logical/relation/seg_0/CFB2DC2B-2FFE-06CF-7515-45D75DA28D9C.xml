@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSSUIRv2" directorySegmentName="seg_0" id="CFB2DC2B-2FFE-06CF-7515-45D75DA28D9C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:34:54 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<sourcePk>25BD6C2D-7A12-AA53-A9CC-D2B09F1F0055</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E9C41013-32B9-01ED-A2D8-409F95034FC0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>247C01B4-F963-D2EE-4E24-68D0D1F02FBE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

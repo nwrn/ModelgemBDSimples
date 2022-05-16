@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="247C01B4-F963-D2EE-4E24-68D0D1F02FBE" name="T_SPV_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:24:58 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="A869AF91-F1E6-6FFF-7CB4-E331726DAF98">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:25:08 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="AF7CE0BE-ED3C-F07D-2234-19612DA49514">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:25:17 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto_completa" id="3CE781A3-25A1-E145-D188-3F8E080C6C77">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:25:26 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_estoque" id="35F99708-C3BE-1A71-6598-81FF868BAB25">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:25:42 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unitario" id="8C40B3CE-A5CF-D0CC-B76E-03DE1F41A612">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:25:59 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_unid_comercial" id="20176849-F8AF-8A1D-6B96-9B7A4775D401">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:34:54 UTC</createdTime>
+<generatorID>CFB2DC2B-2FFE-06CF-7515-45D75DA28D9C</generatorID>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<referedAttribute>112104E8-26F5-5180-DB29-EB53CEE7F31F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D883CDD4-9B4F-45F1-FAF1-A8A3B0013287" name="T_SPV_PRODUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:25:16 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A869AF91-F1E6-6FFF-7CB4-E331726DAF98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

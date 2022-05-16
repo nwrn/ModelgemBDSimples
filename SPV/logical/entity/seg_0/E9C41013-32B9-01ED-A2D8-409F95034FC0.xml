@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9C41013-32B9-01ED-A2D8-409F95034FC0" name="T_SPV_UNID_CML">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:23:59 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unid_comercial" id="112104E8-26F5-5180-DB29-EB53CEE7F31F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:24:15 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_unid_comercial" id="CA2F26FD-0DA4-7E10-0F3A-81CD7B29BA44">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:24:25 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_unid_comercial" id="43199F73-31E6-096C-574F-44D4F4FD8BFB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:24:35 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25BD6C2D-7A12-AA53-A9CC-D2B09F1F0055" name="T_SPV_UNID_CML PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:24:45 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>112104E8-26F5-5180-DB29-EB53CEE7F31F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

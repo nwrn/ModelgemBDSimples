@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8BAFA82-CEEB-F54E-3ACE-5BD08D7961F2" name="T_SPV_ITEM_NF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:28:25 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="qt_comercializada" id="8EEB0FBB-6DE9-532D-2400-28528178A553">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:29:50 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco" id="EE155EEC-F6AD-52E7-7152-6B923B72AE35">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:30:07 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unitario" id="87370DA5-4BCA-8E1C-59AC-786F9D1860D0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:30:13 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_total_item" id="33EEF688-D220-114B-CC44-188C8D3AAB13">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:30:25 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_nota_fiscal" id="BAC2B234-70EE-C785-74A3-AA27E0FBF196">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:39:02 UTC</createdTime>
+<generatorID>3963679E-4B6A-3745-9C9E-F2FBEB3343D4</generatorID>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<referedAttribute>6797148B-E4CC-1E98-C857-E218F0CF0A9E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="543A8BB9-B5C2-9D20-ED24-2574BDAA9651">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:41:38 UTC</createdTime>
+<generatorID>D06CF3E7-2657-831F-67BC-662893305719</generatorID>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<referedAttribute>A869AF91-F1E6-6FFF-7CB4-E331726DAF98</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB2D0E29-4C89-77A3-025B-917F57A11E25" name="T_SPV_ITEM_NF PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:30:48 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EEB0FBB-6DE9-532D-2400-28528178A553</attributeRef>
+<attributeRef>BAC2B234-70EE-C785-74A3-AA27E0FBF196</attributeRef>
+<attributeRef>543A8BB9-B5C2-9D20-ED24-2574BDAA9651</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

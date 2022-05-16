@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTER" directorySegmentName="seg_0" id="3963679E-4B6A-3745-9C9E-F2FBEB3343D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:39:02 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<sourcePk>05B89CD9-1BC5-DE25-C39D-8E2A5E663CCD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>274F3786-B9A5-CAE7-BF5C-393083E5C1E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8BAFA82-CEEB-F54E-3ACE-5BD08D7961F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

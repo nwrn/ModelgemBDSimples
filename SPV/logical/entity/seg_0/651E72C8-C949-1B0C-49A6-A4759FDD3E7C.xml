@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="651E72C8-C949-1B0C-49A6-A4759FDD3E7C" name="T_SPV_CLASSIF_FISCAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:22:12 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cfop" id="2059B1FE-4CA0-1F35-A8CB-784E16760202">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:22:26 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_tipo_operacao" id="7CA76673-8FC6-75D2-6008-5C4288952528">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:22:35 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_natureza_op" id="77473FF8-0BBB-331D-8BAB-E194C5CCBA56">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:22:48 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_natureza_op" id="2B3953FD-35D8-64DC-F633-DAC2377130B4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:23:01 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAF68B66-8727-4B86-9996-923FB9AAD05C" name="T_SPV_CLASSIF_FISCAL PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-12 14:22:34 UTC</createdTime>
+<ownerDesignName>SPV</ownerDesignName>
+<engineerTo>
+<item key="470D6AB3-CE52-CA1E-F96E-C53764363B81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2059B1FE-4CA0-1F35-A8CB-784E16760202</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
